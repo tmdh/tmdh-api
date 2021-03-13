@@ -1,0 +1,11 @@
+{
+  "name": "tmdh-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/tmdh/tmdh-api.git",
+  "author": "tmdh <tarequemd.hanif@yahoo.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
