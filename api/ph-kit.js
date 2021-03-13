@@ -12,11 +12,15 @@ module.exports = async (_, res) => {
       },
     });
     res.json({
-      votesCount: data.data.post.votesCount,
+      subject: "producthunt",
+      status: data.data.post.votesCount.toString(),
+      color: "orange",
     });
   } catch (e) {
     res.json({
-      votesCount: -1,
+      subject: "producthunt",
+      status: "unavailable",
+      color: "gray",
     });
   }
 };
